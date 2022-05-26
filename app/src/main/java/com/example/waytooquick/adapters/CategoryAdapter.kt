@@ -1,6 +1,7 @@
 package com.example.waytooquick.adapters
 
 import android.annotation.SuppressLint
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
@@ -39,6 +40,8 @@ class CategoryAdapter :
 
         holder.binding.tvCategoryLabel.text = category.name
         holder.binding.ivCategoryItem.load(category.icon)
+
+        holder.binding.ivCategoryItem.borderColor = category.color.toInt()
     }
 
 }
