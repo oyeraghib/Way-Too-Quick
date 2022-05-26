@@ -7,9 +7,10 @@
     android:id="@+id/list_item_categories"
     >
 
-  <ImageView
+  <de.hdodenhof.circleimageview.CircleImageView
       android:layout_width="64dp"
       android:layout_height="64dp"
+      android:src="@drawable/placeholder"
       tools:srcCompat="@tools:sample/avatars"
       android:id="@+id/ivCategoryItem"
       app:layout_constraintTop_toTopOf="parent"
